@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EACDC7217821C7900EB4C07 /* BRRequest+_UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EACDC7117821C7900EB4C07 /* BRRequest+_UserData.m */; };
+		6ECE623E1B45703200F3A050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE623C1B45703200F3A050 /* Main.storyboard */; };
+		6ECE62401B457BBD00F3A050 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE623F1B457BBD00F3A050 /* Default-568h@2x.png */; };
+		6ECE62431B4580E500F3A050 /* BRButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE62421B4580E500F3A050 /* BRButtonController.m */; };
+		6ECE62461B45962E00F3A050 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE62451B45962E00F3A050 /* CALayer+Additions.m */; };
+		6ECE62481B45969B00F3A050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECE62471B45969B00F3A050 /* QuartzCore.framework */; };
+		6EF0293115ADE4E100E01C96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF0293015ADE4E100E01C96 /* UIKit.framework */; };
+		6EF0293315ADE4E100E01C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF0293215ADE4E100E01C96 /* Foundation.framework */; };
+		6EF0293515ADE4E100E01C96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF0293415ADE4E100E01C96 /* CoreGraphics.framework */; };
+		6EF0293B15ADE4E100E01C96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0293915ADE4E100E01C96 /* InfoPlist.strings */; };
+		6EF0293D15ADE4E100E01C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0293C15ADE4E100E01C96 /* main.m */; };
+		6EF0294115ADE4E100E01C96 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0294015ADE4E100E01C96 /* BRAppDelegate.m */; };
+		6EF0294E15ADE5A600E01C96 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF0294B15ADE58700E01C96 /* CFNetwork.framework */; };
+		6EF0296915ADE66400E01C96 /* BRRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0295715ADE66400E01C96 /* BRRequest.m */; };
+		6EF0296A15ADE66400E01C96 /* BRRequestCreateDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0295915ADE66400E01C96 /* BRRequestCreateDirectory.m */; };
+		6EF0296B15ADE66400E01C96 /* BRRequestDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0295B15ADE66400E01C96 /* BRRequestDelete.m */; };
+		6EF0296C15ADE66400E01C96 /* BRRequestDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0295D15ADE66400E01C96 /* BRRequestDownload.m */; };
+		6EF0296D15ADE66400E01C96 /* BRRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0295F15ADE66400E01C96 /* BRRequestError.m */; };
+		6EF0296E15ADE66400E01C96 /* BRRequestListDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0296115ADE66400E01C96 /* BRRequestListDirectory.m */; };
+		6EF0296F15ADE66400E01C96 /* BRRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0296315ADE66400E01C96 /* BRRequestQueue.m */; };
+		6EF0297015ADE66400E01C96 /* BRRequestUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0296515ADE66400E01C96 /* BRRequestUpload.m */; };
+		6EF0297115ADE66400E01C96 /* BRStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0296715ADE66400E01C96 /* BRStreamInfo.m */; };
+		6EF0297415ADE67000E01C96 /* BRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0297315ADE67000E01C96 /* BRMainViewController.m */; };
+		6EF0298E15AF102300E01C96 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0298B15AF102300E01C96 /* LICENSE.txt */; };
+		6EF0298F15AF102300E01C96 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0298C15AF102300E01C96 /* README.md */; };
+		6EF0299015AF102300E01C96 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0298D15AF102300E01C96 /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EACDC7017821C7900EB4C07 /* BRRequest+_UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BRRequest+_UserData.h"; path = "BlackRaccoon/BlackRaccoon/BRRequest+_UserData.h"; sourceTree = "<group>"; };
+		6EACDC7117821C7900EB4C07 /* BRRequest+_UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BRRequest+_UserData.m"; path = "BlackRaccoon/BlackRaccoon/BRRequest+_UserData.m"; sourceTree = "<group>"; };
+		6ECE623D1B45703200F3A050 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECE623F1B457BBD00F3A050 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6ECE62411B4580E500F3A050 /* BRButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRButtonController.h; sourceTree = "<group>"; };
+		6ECE62421B4580E500F3A050 /* BRButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRButtonController.m; sourceTree = "<group>"; };
+		6ECE62441B45962E00F3A050 /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		6ECE62451B45962E00F3A050 /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		6ECE62471B45969B00F3A050 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6EF0292C15ADE4E100E01C96 /* BlackRaccoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackRaccoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF0293015ADE4E100E01C96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EF0293215ADE4E100E01C96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EF0293415ADE4E100E01C96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EF0293815ADE4E100E01C96 /* BlackRaccoon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlackRaccoon-Info.plist"; sourceTree = "<group>"; };
+		6EF0293A15ADE4E100E01C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EF0293C15ADE4E100E01C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EF0293E15ADE4E100E01C96 /* BlackRaccoon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackRaccoon-Prefix.pch"; sourceTree = "<group>"; };
+		6EF0293F15ADE4E100E01C96 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		6EF0294015ADE4E100E01C96 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		6EF0294B15ADE58700E01C96 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6EF0295515ADE66400E01C96 /* BRGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRGlobal.h; path = BlackRaccoon/BlackRaccoon/BRGlobal.h; sourceTree = "<group>"; };
+		6EF0295615ADE66400E01C96 /* BRRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequest.h; path = BlackRaccoon/BlackRaccoon/BRRequest.h; sourceTree = "<group>"; };
+		6EF0295715ADE66400E01C96 /* BRRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequest.m; path = BlackRaccoon/BlackRaccoon/BRRequest.m; sourceTree = "<group>"; };
+		6EF0295815ADE66400E01C96 /* BRRequestCreateDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestCreateDirectory.h; path = BlackRaccoon/BlackRaccoon/BRRequestCreateDirectory.h; sourceTree = "<group>"; };
+		6EF0295915ADE66400E01C96 /* BRRequestCreateDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestCreateDirectory.m; path = BlackRaccoon/BlackRaccoon/BRRequestCreateDirectory.m; sourceTree = "<group>"; };
+		6EF0295A15ADE66400E01C96 /* BRRequestDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestDelete.h; path = BlackRaccoon/BlackRaccoon/BRRequestDelete.h; sourceTree = "<group>"; };
+		6EF0295B15ADE66400E01C96 /* BRRequestDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestDelete.m; path = BlackRaccoon/BlackRaccoon/BRRequestDelete.m; sourceTree = "<group>"; };
+		6EF0295C15ADE66400E01C96 /* BRRequestDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestDownload.h; path = BlackRaccoon/BlackRaccoon/BRRequestDownload.h; sourceTree = "<group>"; };
+		6EF0295D15ADE66400E01C96 /* BRRequestDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestDownload.m; path = BlackRaccoon/BlackRaccoon/BRRequestDownload.m; sourceTree = "<group>"; };
+		6EF0295E15ADE66400E01C96 /* BRRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestError.h; path = BlackRaccoon/BlackRaccoon/BRRequestError.h; sourceTree = "<group>"; };
+		6EF0295F15ADE66400E01C96 /* BRRequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestError.m; path = BlackRaccoon/BlackRaccoon/BRRequestError.m; sourceTree = "<group>"; };
+		6EF0296015ADE66400E01C96 /* BRRequestListDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestListDirectory.h; path = BlackRaccoon/BlackRaccoon/BRRequestListDirectory.h; sourceTree = "<group>"; };
+		6EF0296115ADE66400E01C96 /* BRRequestListDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestListDirectory.m; path = BlackRaccoon/BlackRaccoon/BRRequestListDirectory.m; sourceTree = "<group>"; };
+		6EF0296215ADE66400E01C96 /* BRRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestQueue.h; path = BlackRaccoon/BlackRaccoon/BRRequestQueue.h; sourceTree = "<group>"; };
+		6EF0296315ADE66400E01C96 /* BRRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestQueue.m; path = BlackRaccoon/BlackRaccoon/BRRequestQueue.m; sourceTree = "<group>"; };
+		6EF0296415ADE66400E01C96 /* BRRequestUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRRequestUpload.h; path = BlackRaccoon/BlackRaccoon/BRRequestUpload.h; sourceTree = "<group>"; };
+		6EF0296515ADE66400E01C96 /* BRRequestUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRRequestUpload.m; path = BlackRaccoon/BlackRaccoon/BRRequestUpload.m; sourceTree = "<group>"; };
+		6EF0296615ADE66400E01C96 /* BRStreamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRStreamInfo.h; path = BlackRaccoon/BlackRaccoon/BRStreamInfo.h; sourceTree = "<group>"; };
+		6EF0296715ADE66400E01C96 /* BRStreamInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRStreamInfo.m; path = BlackRaccoon/BlackRaccoon/BRStreamInfo.m; sourceTree = "<group>"; };
+		6EF0297215ADE67000E01C96 /* BRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMainViewController.h; sourceTree = "<group>"; };
+		6EF0297315ADE67000E01C96 /* BRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMainViewController.m; sourceTree = "<group>"; };
+		6EF0298B15AF102300E01C96 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6EF0298C15AF102300E01C96 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		6EF0298D15AF102300E01C96 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EF0292915ADE4E100E01C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF0293515ADE4E100E01C96 /* CoreGraphics.framework in Frameworks */,
+				6ECE62481B45969B00F3A050 /* QuartzCore.framework in Frameworks */,
+				6EF0294E15ADE5A600E01C96 /* CFNetwork.framework in Frameworks */,
+				6EF0293115ADE4E100E01C96 /* UIKit.framework in Frameworks */,
+				6EF0293315ADE4E100E01C96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EF0292115ADE4E100E01C96 = {
+			isa = PBXGroup;
+			children = (
+				6ECE623F1B457BBD00F3A050 /* Default-568h@2x.png */,
+				6EF0297E15ADEE8100E01C96 /* Documentation */,
+				6EF0293615ADE4E100E01C96 /* BlackRaccoon */,
+				6EF0292F15ADE4E100E01C96 /* Frameworks */,
+				6EF0292D15ADE4E100E01C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF0292D15ADE4E100E01C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0292C15ADE4E100E01C96 /* BlackRaccoon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF0292F15ADE4E100E01C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE62471B45969B00F3A050 /* QuartzCore.framework */,
+				6EF0294B15ADE58700E01C96 /* CFNetwork.framework */,
+				6EF0293015ADE4E100E01C96 /* UIKit.framework */,
+				6EF0293215ADE4E100E01C96 /* Foundation.framework */,
+				6EF0293415ADE4E100E01C96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EF0293615ADE4E100E01C96 /* BlackRaccoon */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE623C1B45703200F3A050 /* Main.storyboard */,
+				6EF0297215ADE67000E01C96 /* BRMainViewController.h */,
+				6EF0297315ADE67000E01C96 /* BRMainViewController.m */,
+				6EF0293F15ADE4E100E01C96 /* BRAppDelegate.h */,
+				6EF0294015ADE4E100E01C96 /* BRAppDelegate.m */,
+				6ECE62411B4580E500F3A050 /* BRButtonController.h */,
+				6ECE62421B4580E500F3A050 /* BRButtonController.m */,
+				6ECE62441B45962E00F3A050 /* CALayer+Additions.h */,
+				6ECE62451B45962E00F3A050 /* CALayer+Additions.m */,
+				6EF0295215ADE63A00E01C96 /* BlackRaccoonFTP */,
+				6EF0293715ADE4E100E01C96 /* Supporting Files */,
+			);
+			path = BlackRaccoon;
+			sourceTree = "<group>";
+		};
+		6EF0293715ADE4E100E01C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0293815ADE4E100E01C96 /* BlackRaccoon-Info.plist */,
+				6EF0293915ADE4E100E01C96 /* InfoPlist.strings */,
+				6EF0293C15ADE4E100E01C96 /* main.m */,
+				6EF0293E15ADE4E100E01C96 /* BlackRaccoon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EF0295215ADE63A00E01C96 /* BlackRaccoonFTP */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0295515ADE66400E01C96 /* BRGlobal.h */,
+				6EF0295615ADE66400E01C96 /* BRRequest.h */,
+				6EF0295715ADE66400E01C96 /* BRRequest.m */,
+				6EACDC7017821C7900EB4C07 /* BRRequest+_UserData.h */,
+				6EACDC7117821C7900EB4C07 /* BRRequest+_UserData.m */,
+				6EF0295815ADE66400E01C96 /* BRRequestCreateDirectory.h */,
+				6EF0295915ADE66400E01C96 /* BRRequestCreateDirectory.m */,
+				6EF0295A15ADE66400E01C96 /* BRRequestDelete.h */,
+				6EF0295B15ADE66400E01C96 /* BRRequestDelete.m */,
+				6EF0295C15ADE66400E01C96 /* BRRequestDownload.h */,
+				6EF0295D15ADE66400E01C96 /* BRRequestDownload.m */,
+				6EF0295E15ADE66400E01C96 /* BRRequestError.h */,
+				6EF0295F15ADE66400E01C96 /* BRRequestError.m */,
+				6EF0296015ADE66400E01C96 /* BRRequestListDirectory.h */,
+				6EF0296115ADE66400E01C96 /* BRRequestListDirectory.m */,
+				6EF0296215ADE66400E01C96 /* BRRequestQueue.h */,
+				6EF0296315ADE66400E01C96 /* BRRequestQueue.m */,
+				6EF0296415ADE66400E01C96 /* BRRequestUpload.h */,
+				6EF0296515ADE66400E01C96 /* BRRequestUpload.m */,
+				6EF0296615ADE66400E01C96 /* BRStreamInfo.h */,
+				6EF0296715ADE66400E01C96 /* BRStreamInfo.m */,
+			);
+			name = BlackRaccoonFTP;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6EF0297E15ADEE8100E01C96 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0298B15AF102300E01C96 /* LICENSE.txt */,
+				6EF0298C15AF102300E01C96 /* README.md */,
+				6EF0298D15AF102300E01C96 /* ReadMe.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EF0292B15ADE4E100E01C96 /* BlackRaccoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF0294415ADE4E100E01C96 /* Build configuration list for PBXNativeTarget "BlackRaccoon" */;
+			buildPhases = (
+				6EF0292815ADE4E100E01C96 /* Sources */,
+				6EF0292915ADE4E100E01C96 /* Frameworks */,
+				6EF0292A15ADE4E100E01C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackRaccoon;
+			productName = BlackRaccoon;
+			productReference = 6EF0292C15ADE4E100E01C96 /* BlackRaccoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EF0292315ADE4E100E01C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Canna Software Development";
+			};
+			buildConfigurationList = 6EF0292615ADE4E100E01C96 /* Build configuration list for PBXProject "BlackRaccoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EF0292115ADE4E100E01C96;
+			productRefGroup = 6EF0292D15ADE4E100E01C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF0292B15ADE4E100E01C96 /* BlackRaccoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EF0292A15ADE4E100E01C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF0293B15ADE4E100E01C96 /* InfoPlist.strings in Resources */,
+				6ECE62401B457BBD00F3A050 /* Default-568h@2x.png in Resources */,
+				6ECE623E1B45703200F3A050 /* Main.storyboard in Resources */,
+				6EF0298E15AF102300E01C96 /* LICENSE.txt in Resources */,
+				6EF0298F15AF102300E01C96 /* README.md in Resources */,
+				6EF0299015AF102300E01C96 /* ReadMe.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF0292815ADE4E100E01C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF0293D15ADE4E100E01C96 /* main.m in Sources */,
+				6EF0294115ADE4E100E01C96 /* BRAppDelegate.m in Sources */,
+				6EF0296915ADE66400E01C96 /* BRRequest.m in Sources */,
+				6EF0296A15ADE66400E01C96 /* BRRequestCreateDirectory.m in Sources */,
+				6EF0296B15ADE66400E01C96 /* BRRequestDelete.m in Sources */,
+				6EF0296C15ADE66400E01C96 /* BRRequestDownload.m in Sources */,
+				6EF0296D15ADE66400E01C96 /* BRRequestError.m in Sources */,
+				6EF0296E15ADE66400E01C96 /* BRRequestListDirectory.m in Sources */,
+				6EF0296F15ADE66400E01C96 /* BRRequestQueue.m in Sources */,
+				6EF0297015ADE66400E01C96 /* BRRequestUpload.m in Sources */,
+				6EF0297115ADE66400E01C96 /* BRStreamInfo.m in Sources */,
+				6EF0297415ADE67000E01C96 /* BRMainViewController.m in Sources */,
+				6EACDC7217821C7900EB4C07 /* BRRequest+_UserData.m in Sources */,
+				6ECE62431B4580E500F3A050 /* BRButtonController.m in Sources */,
+				6ECE62461B45962E00F3A050 /* CALayer+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ECE623C1B45703200F3A050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECE623D1B45703200F3A050 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EF0293915ADE4E100E01C96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF0293A15ADE4E100E01C96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EF0294215ADE4E100E01C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EF0294315ADE4E100E01C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EF0294515ADE4E100E01C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackRaccoon/BlackRaccoon-Prefix.pch";
+				INFOPLIST_FILE = "BlackRaccoon/BlackRaccoon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EF0294615ADE4E100E01C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlackRaccoon/BlackRaccoon-Prefix.pch";
+				INFOPLIST_FILE = "BlackRaccoon/BlackRaccoon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF0292615ADE4E100E01C96 /* Build configuration list for PBXProject "BlackRaccoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF0294215ADE4E100E01C96 /* Debug */,
+				6EF0294315ADE4E100E01C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF0294415ADE4E100E01C96 /* Build configuration list for PBXNativeTarget "BlackRaccoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF0294515ADE4E100E01C96 /* Debug */,
+				6EF0294615ADE4E100E01C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EF0292315ADE4E100E01C96 /* Project object */;
+}
