@@ -57,6 +57,7 @@
 		E786B3D1246E598E004DF2C9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E786B3D0246E598E004DF2C9 /* WebKit.framework */; };
 		E7F2DC88244D7F9300FF8E74 /* VC_Config.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F2DC87244D7F9300FF8E74 /* VC_Config.xib */; };
 		E7F2DD192457C72000FF8E74 /* VC_Tutorial.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F2DD182457C72000FF8E74 /* VC_Tutorial.xib */; };
+		FC7F8177261B06DA00F6B740 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7F8176261B06DA00F6B740 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,13 @@
 		E786B3D0246E598E004DF2C9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E7F2DC87244D7F9300FF8E74 /* VC_Config.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_Config.xib; sourceTree = "<group>"; };
 		E7F2DD182457C72000FF8E74 /* VC_Tutorial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_Tutorial.xib; sourceTree = "<group>"; };
+		FC2C1546261BEB3700180363 /* PITAMS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PITAMS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC7F8176261B06DA00F6B740 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ios/opencv2.framework; sourceTree = "<group>"; };
+		FC8454DA261C1EEB005A237D /* PITAMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PITAMS-Prefix.pch"; sourceTree = "<group>"; };
+		FC8454DE261C411D005A237D /* PITAMSWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PITAMSWrapper.mm; sourceTree = "<group>"; };
+		FC8454DF261C4202005A237D /* PITAMSWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PITAMSWrapper.h; sourceTree = "<group>"; };
+		FC8454E0261C43D0005A237D /* PITAMS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PITAMS.cpp; sourceTree = "<group>"; };
+		FC8454E1261C43D0005A237D /* PITAMS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PITAMS.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7F8177261B06DA00F6B740 /* opencv2.framework in Frameworks */,
 				E786B3D1246E598E004DF2C9 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +226,12 @@
 		E5F25EB4234EBDE400E9C750 = {
 			isa = PBXGroup;
 			children = (
+				FC8454E0261C43D0005A237D /* PITAMS.cpp */,
+				FC8454E1261C43D0005A237D /* PITAMS.hpp */,
+				FC8454DF261C4202005A237D /* PITAMSWrapper.h */,
+				FC8454DE261C411D005A237D /* PITAMSWrapper.mm */,
+				FC8454DA261C1EEB005A237D /* PITAMS-Prefix.pch */,
+				FC2C1546261BEB3700180363 /* PITAMS-Bridging-Header.h */,
 				E5F25EBF234EBDE400E9C750 /* PITAMS */,
 				E5F25ED6234EBDE500E9C750 /* PITAMSTests */,
 				E5F25EE1234EBDE500E9C750 /* PITAMSUITests */,
@@ -282,6 +297,7 @@
 		E786B3CF246E598E004DF2C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC7F8176261B06DA00F6B740 /* opencv2.framework */,
 				E786B3D0246E598E004DF2C9 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -355,7 +371,7 @@
 				TargetAttributes = {
 					E5F25EBC234EBDE400E9C750 = {
 						CreatedOnToolsVersion = 11.0;
-						LastSwiftMigration = 1100;
+						LastSwiftMigration = 1240;
 					};
 					E5F25ED2234EBDE500E9C750 = {
 						CreatedOnToolsVersion = 11.0;
@@ -640,7 +656,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.2;
 				DEVELOPMENT_TEAM = 65T5U7LL3S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios",
+				);
+				GCC_PREFIX_HEADER = "$(SCROOT)/PITAMS-Prefix.pch";
 				INFOPLIST_FILE = PITAMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -649,7 +671,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.frontarc.PITAMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PITAMS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -666,7 +688,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.2;
 				DEVELOPMENT_TEAM = 65T5U7LL3S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios",
+				);
+				GCC_PREFIX_HEADER = "$(SCROOT)/PITAMS-Prefix.pch";
 				INFOPLIST_FILE = PITAMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,7 +703,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.frontarc.PITAMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PITAMS-Bridging-Header.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -6,10 +6,26 @@
 //
 
 import UIKit
+import SwiftUI
+
+@main
+struct SwiftCPPApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
 
 protocol httpLoginDelegate : class{
     func onSuccess() -> Void
     func onFailed(msg:String, retryFlg:Bool) -> Void
+}
+
+struct ContentView: View {
+    var body: some View {
+        Text(PITAMSWrapper().sayHello()).padding()
+    }
 }
 
 class VC_Login: UIViewController, UITextFieldDelegate, UIGestureRecognizerDelegate, httpLoginDelegate {

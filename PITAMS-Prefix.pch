@@ -1,0 +1,19 @@
+//
+//  PITAMS-Prefix.pch
+//  PITAMS
+//
+//  Created by frontarc on 2021/04/06.
+//  Copyright © 2021 frontarc. All rights reserved.
+//
+
+#ifndef PITAMS_Prefix_pch
+#define PITAMS_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PITAMS_Prefix_pch */
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
